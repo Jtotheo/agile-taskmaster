@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/agile-taskmaster/static/css/main.5b0f7c31.chunk.css",
-    "main.js": "/agile-taskmaster/static/js/main.4c3391a7.chunk.js",
-    "main.js.map": "/agile-taskmaster/static/js/main.4c3391a7.chunk.js.map",
+    "main.css": "/agile-taskmaster/static/css/main.2744fbc6.chunk.css",
+    "main.js": "/agile-taskmaster/static/js/main.caeae2c4.chunk.js",
+    "main.js.map": "/agile-taskmaster/static/js/main.caeae2c4.chunk.js.map",
     "runtime-main.js": "/agile-taskmaster/static/js/runtime-main.08848e32.js",
     "runtime-main.js.map": "/agile-taskmaster/static/js/runtime-main.08848e32.js.map",
     "static/js/2.60f1c88d.chunk.js": "/agile-taskmaster/static/js/2.60f1c88d.chunk.js",
     "static/js/2.60f1c88d.chunk.js.map": "/agile-taskmaster/static/js/2.60f1c88d.chunk.js.map",
     "index.html": "/agile-taskmaster/index.html",
-    "static/css/main.5b0f7c31.chunk.css.map": "/agile-taskmaster/static/css/main.5b0f7c31.chunk.css.map",
+    "static/css/main.2744fbc6.chunk.css.map": "/agile-taskmaster/static/css/main.2744fbc6.chunk.css.map",
     "static/js/2.60f1c88d.chunk.js.LICENSE.txt": "/agile-taskmaster/static/js/2.60f1c88d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.08848e32.js",
     "static/js/2.60f1c88d.chunk.js",
-    "static/css/main.5b0f7c31.chunk.css",
-    "static/js/main.4c3391a7.chunk.js"
+    "static/css/main.2744fbc6.chunk.css",
+    "static/js/main.caeae2c4.chunk.js"
   ]
 }

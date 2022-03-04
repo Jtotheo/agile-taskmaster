@@ -4,6 +4,7 @@ import { TaskCreator } from "./TaskCreator";
 export function Columns(props) {
   const [columnName, setColumnName] = useState("");
   const [columns, setColumns] = useState([]);
+  const [sessionStarted, setSessionStarted] = useState(false);
 
   // Function updates the input field by updating the columnName-state
   function handleChange(ev) {
@@ -14,6 +15,7 @@ export function Columns(props) {
   // Function updates the columns array based off the columnName-state
   function createColumn() {
     if (columnName) {
+      setSessionStarted(true);
       setColumns([...columns, columnName]);
       setColumnName("");
     }
@@ -97,7 +99,7 @@ export function Columns(props) {
             <div>Max number of columns used</div>
           )}
         </div>
-        {columns.length > 0 ? <TaskCreator /> : ""}
+        {sessionStarted ? <TaskCreator /> : ""}
       </div>
       <div className="columnContainer">{column}</div>
     </>
